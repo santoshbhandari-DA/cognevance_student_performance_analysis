@@ -1,0 +1,49 @@
+Students rows:    12,156
+Performance rows: 36,468
+Attendance rows:  364,680
+Attendance rows with unknown status: 0
+Invalid homework values replaced with median (95): 7,376
+Rows with exam score outside 0-100 (removed): 5,139
+Valid records after cleaning: 31,329 (from 36,468)
+Records without attendance data: 205
+
+--- Exam scores ---
+Average score: 69.96
+Median score:  70.00
+
+--- Grade distribution ---
+Grade
+A (90-100)      18.0
+B (75-89)       24.7
+C (60-74)       24.4
+D (below 60)    32.9
+
+--- Average score by subject ---
+Subject
+Geography    69.85
+Arabic       69.86
+Math         69.87
+English      69.91
+History      70.00
+Science      70.25
+
+--- Relationships (correlation, -1 to +1) ---
+Attendance % vs Exam score:  -0.0008
+Homework %  vs Exam score:   -0.0008
+(A value close to 0 means there is no relationship.)
+
+--- Average score by attendance band ---
+              count   mean
+Attendance_%              
+Up to 60%     25417  69.92
+60-75%         4360  70.36
+75-85%          622  69.97
+85-100%         725  68.77
+
+--- Average score by homework completion ---
+                       count   mean
+Homework_Completion_%              
+80.0                    6274  69.85
+90.0                    6042  70.26
+95.0                   12766  69.92
+100.0                   6247  69.85
